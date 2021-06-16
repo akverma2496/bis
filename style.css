@@ -1,0 +1,39 @@
+body{
+background-color: #f2fdff;
+margin-top : 70px;
+}
+
+.ImageViewer{
+background-image: url("images/car0.jpeg");
+background-repeat: no-repeat;
+margin: auto;
+border: 10px solid #3e92cc;
+border-radius: 1%;
+width: 70%;
+height: 550px;
+background-size: 100% 100%;
+}
+
+#btnLeft{
+float: left; 
+margin-left: -24px;
+}
+
+#btnRight{
+float: right;
+margin-right: -24px;
+}
+
+#btnLeft:hover , #btnRight:hover{
+background-color: #f2fdff;
+}
+
+#btnLeft , #btnRight{
+width: 40px;
+height: 35px;
+background-color: #3e92cc;
+border: 2px solid #3e92cc;
+cursor: pointer;
+border-radius: 20%;
+margin-top: 265px;
+}
